@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felipe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Design FCX</h1>
+    <div class="container">
+        <section class="thumbnails">
+            <h2>Thumbnails</h2>
+            <img src="images/afterambientacao.png" alt="thumb1" onclick="openModal(this.src)">
+            <img src="images/lebronjames_forcexxv2.png" alt="thumb2" onclick="openModal(this.src)">
+            <img src="images/minecraftmods_forcexx.png" alt="thumb3" onclick="openModal(this.src)">
+        </section>
+        <section class="banners">
+            <h2>Banners</h2>
+            <img src="images/forcexrimuru_Forcexx.png" alt="banner 1" onclick="openModal(this.src)">
+            <img src="images/fcx_designer_inosuke.png" alt="banner 2" onclick="openModal(this.src)">
+            <img src="images/lipexyz0-gojobanner.png" alt="banner 3" onclick="openModal(this.src)">
+        </section>
+        <section class="posters">
+            <h2>Posters</h2>
+            <img src="images/dbsposter_forcexx.png" alt="poster 1" onclick="openModal(this.src)">
+            <img src="images/poster_vilandsaga_forcexx.png" alt="poster 2" onclick="openModal(this.src)">
+        </section>
+    </div>
+
+    <!-- Modal para visualização maior -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
